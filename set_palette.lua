@@ -1,5 +1,6 @@
 ---@diagnostic disable: undefined-global
 
+-- old default path
 local path = "D:/Program Files/Aseprite/data/palettes/playpal.gpl"
 
 local palettes = {
