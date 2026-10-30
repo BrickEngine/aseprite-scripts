@@ -1,21 +1,18 @@
 ---@diagnostic disable: undefined-global
 
--- old default path
-local path = "D:/Program Files/Aseprite/data/palettes/playpal.gpl"
-
 local palettes = {
   PLAYPAL = "playpal",
   AAP64 = "AAP-64"
 }
 
-local palettePaths = {
-  [palettes.PLAYPAL] = "D:/Program Files/Aseprite/data/palettes/playpal.gpl",
-  [palettes.AAP64] = "D:/Program Files/Aseprite/data/extensions/adigunpolack-palettes/aap-64.gpl"
-}
-
 local optStrings = {
   active = "Active Sprite",
   all = "All Open Sprites"
+}
+
+local palettePaths = {
+  [palettes.PLAYPAL] = "D:/Program Files/Aseprite/data/palettes/playpal.gpl",
+  [palettes.AAP64] = "D:/Program Files/Aseprite/data/extensions/adigunpolack-palettes/aap-64.gpl"
 }
 
 ------------------------------------------------------------------------------------------------------------------------
