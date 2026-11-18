@@ -2,7 +2,10 @@
 
 local palettes = {
   PLAYPAL = "playpal",
-  AAP64 = "AAP-64"
+  QUAKE2 = "quake2",
+  BMOON21 = "bloodmoon21",
+  AAP64 = "AAP-64",
+  GS16 = "grayscale-16"
 }
 
 local optStrings = {
@@ -12,7 +15,10 @@ local optStrings = {
 
 local palettePaths = {
   [palettes.PLAYPAL] = "D:/Program Files/Aseprite/data/palettes/playpal.gpl",
-  [palettes.AAP64] = "D:/Program Files/Aseprite/data/extensions/adigunpolack-palettes/aap-64.gpl"
+  [palettes.QUAKE2] = "D:/Program Files/Aseprite/data/palettes/quake2.gpl",
+  [palettes.BMOON21] = "D:/Program Files/Aseprite/data/palettes/bloodmoon21.gpl",
+  [palettes.AAP64] = "D:/Program Files/Aseprite/data/extensions/adigunpolack-palettes/aap-64.gpl",
+  [palettes.GS16] = "D:/Program Files/Aseprite/data/palettes/grayscale-16.gpl"
 }
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -34,10 +40,7 @@ dlg:combobox{
 dlg:combobox{
   id = "palette",
   label = "Palette",
-  options = {
-    palettes.PLAYPAL,
-    palettes.AAP64
-  }
+  options = palettes
 }
 
 dlg:button{
